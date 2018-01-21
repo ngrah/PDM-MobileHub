@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		011690A920153B7400D97478 /* Diaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011690942015389000D97478 /* Diaries.swift */; };
+		011690AA20153B7400D97478 /* Questionnaire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011690952015389000D97478 /* Questionnaire.swift */; };
+		011690AB20153B7400D97478 /* Readings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011690962015389000D97478 /* Readings.swift */; };
+		011690AD20153E7200D97478 /* ReadingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011690AC20153E7200D97478 /* ReadingsViewController.swift */; };
+		011690AF201540E500D97478 /* QuestionnaireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011690AE201540E500D97478 /* QuestionnaireViewController.swift */; };
+		011690B12015412E00D97478 /* DiariesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011690B02015412E00D97478 /* DiariesViewController.swift */; };
 		0132EFE02015163E00E0C16B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132EFDF2015163E00E0C16B /* AppDelegate.swift */; };
 		0132EFE22015163E00E0C16B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132EFE12015163E00E0C16B /* ViewController.swift */; };
 		0132EFE52015163E00E0C16B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0132EFE32015163E00E0C16B /* Main.storyboard */; };
 		0132EFE72015163E00E0C16B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0132EFE62015163E00E0C16B /* Assets.xcassets */; };
 		0132EFEA2015163E00E0C16B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0132EFE82015163E00E0C16B /* LaunchScreen.storyboard */; };
 		0132EFF52015163E00E0C16B /* PDM_MobileHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132EFF42015163E00E0C16B /* PDM_MobileHubTests.swift */; };
+		9685345022D94A79E44F97FF /* Pods_PDM_MobileHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE28253C994C7E4CD2DE7197 /* Pods_PDM_MobileHub.framework */; };
+		F1A10307DBE2FF3DE975E890 /* Pods_PDM_MobileHubTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D756625CDBF9A06BB8FD7D /* Pods_PDM_MobileHubTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +34,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		011690842015379E00D97478 /* awsconfiguration.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = awsconfiguration.json; path = ../../../../Downloads/awsconfiguration.json; sourceTree = "<group>"; };
+		011690942015389000D97478 /* Diaries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diaries.swift; sourceTree = "<group>"; };
+		011690952015389000D97478 /* Questionnaire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questionnaire.swift; sourceTree = "<group>"; };
+		011690962015389000D97478 /* Readings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readings.swift; sourceTree = "<group>"; };
+		011690AC20153E7200D97478 /* ReadingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingsViewController.swift; sourceTree = "<group>"; };
+		011690AE201540E500D97478 /* QuestionnaireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireViewController.swift; sourceTree = "<group>"; };
+		011690B02015412E00D97478 /* DiariesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiariesViewController.swift; sourceTree = "<group>"; };
 		0132EFDC2015163E00E0C16B /* PDM-MobileHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PDM-MobileHub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0132EFDF2015163E00E0C16B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0132EFE12015163E00E0C16B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +51,12 @@
 		0132EFF02015163E00E0C16B /* PDM-MobileHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PDM-MobileHubTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0132EFF42015163E00E0C16B /* PDM_MobileHubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDM_MobileHubTests.swift; sourceTree = "<group>"; };
 		0132EFF62015163E00E0C16B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31A806A55E1BE8303F8A54F1 /* Pods-PDM-MobileHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDM-MobileHub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PDM-MobileHub/Pods-PDM-MobileHub.debug.xcconfig"; sourceTree = "<group>"; };
+		78D756625CDBF9A06BB8FD7D /* Pods_PDM_MobileHubTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDM_MobileHubTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9322CFB7B9AD4836661CDFA9 /* Pods-PDM-MobileHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDM-MobileHub.release.xcconfig"; path = "Pods/Target Support Files/Pods-PDM-MobileHub/Pods-PDM-MobileHub.release.xcconfig"; sourceTree = "<group>"; };
+		ADBD33BC4EAEB453A21B3A9F /* Pods-PDM-MobileHubTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDM-MobileHubTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PDM-MobileHubTests/Pods-PDM-MobileHubTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE3DA20E3C0F6D4E4DA6E2CB /* Pods-PDM-MobileHubTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDM-MobileHubTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PDM-MobileHubTests/Pods-PDM-MobileHubTests.release.xcconfig"; sourceTree = "<group>"; };
+		EE28253C994C7E4CD2DE7197 /* Pods_PDM_MobileHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDM_MobileHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9685345022D94A79E44F97FF /* Pods_PDM_MobileHub.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +72,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1A10307DBE2FF3DE975E890 /* Pods_PDM_MobileHubTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		011690912015389000D97478 /* AmazonAws */ = {
+			isa = PBXGroup;
+			children = (
+				011690922015389000D97478 /* Models */,
+			);
+			path = AmazonAws;
+			sourceTree = "<group>";
+		};
+		011690922015389000D97478 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				011690932015389000D97478 /* NoSQL */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		011690932015389000D97478 /* NoSQL */ = {
+			isa = PBXGroup;
+			children = (
+				011690942015389000D97478 /* Diaries.swift */,
+				011690952015389000D97478 /* Questionnaire.swift */,
+				011690962015389000D97478 /* Readings.swift */,
+			);
+			path = NoSQL;
+			sourceTree = "<group>";
+		};
 		0132EFD32015163E00E0C16B = {
 			isa = PBXGroup;
 			children = (
+				011690912015389000D97478 /* AmazonAws */,
 				0132EFDE2015163E00E0C16B /* PDM-MobileHub */,
 				0132EFF32015163E00E0C16B /* PDM-MobileHubTests */,
 				0132EFDD2015163E00E0C16B /* Products */,
+				10604EB5619F1641F437D2FA /* Pods */,
+				B33837C4A172FDB242F59666 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,11 +130,15 @@
 			isa = PBXGroup;
 			children = (
 				0132EFDF2015163E00E0C16B /* AppDelegate.swift */,
-				0132EFE12015163E00E0C16B /* ViewController.swift */,
 				0132EFE32015163E00E0C16B /* Main.storyboard */,
+				0132EFE12015163E00E0C16B /* ViewController.swift */,
 				0132EFE62015163E00E0C16B /* Assets.xcassets */,
 				0132EFE82015163E00E0C16B /* LaunchScreen.storyboard */,
+				011690AC20153E7200D97478 /* ReadingsViewController.swift */,
+				011690842015379E00D97478 /* awsconfiguration.json */,
 				0132EFEB2015163E00E0C16B /* Info.plist */,
+				011690AE201540E500D97478 /* QuestionnaireViewController.swift */,
+				011690B02015412E00D97478 /* DiariesViewController.swift */,
 			);
 			path = "PDM-MobileHub";
 			sourceTree = "<group>";
@@ -96,6 +152,26 @@
 			path = "PDM-MobileHubTests";
 			sourceTree = "<group>";
 		};
+		10604EB5619F1641F437D2FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31A806A55E1BE8303F8A54F1 /* Pods-PDM-MobileHub.debug.xcconfig */,
+				9322CFB7B9AD4836661CDFA9 /* Pods-PDM-MobileHub.release.xcconfig */,
+				ADBD33BC4EAEB453A21B3A9F /* Pods-PDM-MobileHubTests.debug.xcconfig */,
+				DE3DA20E3C0F6D4E4DA6E2CB /* Pods-PDM-MobileHubTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B33837C4A172FDB242F59666 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE28253C994C7E4CD2DE7197 /* Pods_PDM_MobileHub.framework */,
+				78D756625CDBF9A06BB8FD7D /* Pods_PDM_MobileHubTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0132EFF92015163E00E0C16B /* Build configuration list for PBXNativeTarget "PDM-MobileHub" */;
 			buildPhases = (
+				EC64577E4089BE1992744D9A /* [CP] Check Pods Manifest.lock */,
 				0132EFD82015163E00E0C16B /* Sources */,
 				0132EFD92015163E00E0C16B /* Frameworks */,
 				0132EFDA2015163E00E0C16B /* Resources */,
+				239A85A7F26084ED0F29B9F2 /* [CP] Embed Pods Frameworks */,
+				26D1CA5FBA001E990ED50FC6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0132EFFC2015163E00E0C16B /* Build configuration list for PBXNativeTarget "PDM-MobileHubTests" */;
 			buildPhases = (
+				6122698ED4CD9B993569EF5B /* [CP] Check Pods Manifest.lock */,
 				0132EFEC2015163E00E0C16B /* Sources */,
 				0132EFED2015163E00E0C16B /* Frameworks */,
 				0132EFEE2015163E00E0C16B /* Resources */,
+				F3A410D2F54A9C32046C54F8 /* [CP] Embed Pods Frameworks */,
+				48DF74EE6C5D5A0DD533DA14 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,13 +276,137 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		239A85A7F26084ED0F29B9F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PDM-MobileHub/Pods-PDM-MobileHub-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthUI/AWSAuthUI.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSDynamoDB/AWSDynamoDB.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSPinpoint/AWSPinpoint.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSUserPoolsSignIn/AWSUserPoolsSignIn.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSDynamoDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSPinpoint.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSUserPoolsSignIn.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PDM-MobileHub/Pods-PDM-MobileHub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26D1CA5FBA001E990ED50FC6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PDM-MobileHub/Pods-PDM-MobileHub-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48DF74EE6C5D5A0DD533DA14 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PDM-MobileHubTests/Pods-PDM-MobileHubTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6122698ED4CD9B993569EF5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PDM-MobileHubTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC64577E4089BE1992744D9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PDM-MobileHub-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3A410D2F54A9C32046C54F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PDM-MobileHubTests/Pods-PDM-MobileHubTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0132EFD82015163E00E0C16B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				011690AB20153B7400D97478 /* Readings.swift in Sources */,
+				011690A920153B7400D97478 /* Diaries.swift in Sources */,
 				0132EFE22015163E00E0C16B /* ViewController.swift in Sources */,
+				011690AF201540E500D97478 /* QuestionnaireViewController.swift in Sources */,
+				011690AA20153B7400D97478 /* Questionnaire.swift in Sources */,
 				0132EFE02015163E00E0C16B /* AppDelegate.swift in Sources */,
+				011690B12015412E00D97478 /* DiariesViewController.swift in Sources */,
+				011690AD20153E7200D97478 /* ReadingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +557,7 @@
 		};
 		0132EFFA2015163E00E0C16B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31A806A55E1BE8303F8A54F1 /* Pods-PDM-MobileHub.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -366,6 +573,7 @@
 		};
 		0132EFFB2015163E00E0C16B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9322CFB7B9AD4836661CDFA9 /* Pods-PDM-MobileHub.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -381,6 +589,7 @@
 		};
 		0132EFFD2015163E00E0C16B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADBD33BC4EAEB453A21B3A9F /* Pods-PDM-MobileHubTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -398,6 +607,7 @@
 		};
 		0132EFFE2015163E00E0C16B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE3DA20E3C0F6D4E4DA6E2CB /* Pods-PDM-MobileHubTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
