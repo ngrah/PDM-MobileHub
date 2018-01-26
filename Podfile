@@ -7,7 +7,8 @@ target 'PDM-MobileHub' do
   pod 'AWSUserPoolsSignIn', '~> 2.6.6'
   pod 'AWSAuthUI', '~> 2.6.6'  
   pod 'AWSDynamoDB', '~> 2.6.6'
-  
+  pod 'AWSCognitoAuth'
+
   use_frameworks!
 
   # Pods for PDM-MobileHub

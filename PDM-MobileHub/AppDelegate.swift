@@ -10,7 +10,8 @@ import UIKit
 import AWSMobileClient
 import AWSCore
 import AWSPinpoint
-
+import AWSAuthCore
+import AWSUserPoolsSignIn
 
 
 @UIApplicationMain
@@ -23,23 +24,36 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     //AWSDDLog.sharedInstance.logLevel = .info
     
     var pinpoint: AWSPinpoint?
+    var isInitialized: Bool = false
     
 //************************************************************************
     
     // initialize with mobile client
     func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
 
-        return AWSMobileClient.sharedInstance().interceptApplication(application, open: url, sourceApplication: sourceApplication, annotation: annotation)
+        AWSSignInManager.sharedInstance().interceptApplication(application, open: url, sourceApplication: sourceApplication, annotation: annotation)
+        isInitialized = true
+        
+        return true
+    
     }
     
 //************************************************************************
 
     // initialize with mobile client and pinpoint
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        AWSSignInManager.sharedInstance().register(signInProvider: AWSCognitoUserPoolsSignInProvider.sharedInstance())
+        let didFinishLaunching = AWSSignInManager.sharedInstance().interceptApplication(application, didFinishLaunchingWithOptions: launchOptions)
         
-        pinpoint = AWSPinpoint(configuration: AWSPinpointConfiguration.defaultPinpointConfiguration(launchOptions: launchOptions))
+        pinpoint = AWSPinpoint(configuration:AWSPinpointConfiguration.defaultPinpointConfiguration(launchOptions: launchOptions))
+        if (!isInitialized) {
+            AWSSignInManager.sharedInstance().resumeSession(completionHandler: { (result: Any?, error: Error?) in
+                print("Result: \(result) \n Error:\(error)")
+            })
+            isInitialized = true
+        }
         
-        return AWSMobileClient.sharedInstance().interceptApplication(application, didFinishLaunchingWithOptions: launchOptions)
+        return didFinishLaunching
     }
 
 //************************************************************************
